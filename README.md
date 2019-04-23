@@ -23,8 +23,8 @@ vagrant plugin install vagrant-berkshelf
 Clone the repository:
 
 ```
-git clone git@github.com:gigo6000/symfony4-app.git
-cd symfony-chef-vagrant
+git clone https://github.com/wardviaene/chef-demo.git
+cd symfony4-app
 ```
 
 Install Symfony Vendors:
@@ -43,6 +43,11 @@ You should now be able to se the Symfony welcome page here:
 http://localhost:8080
 
 ## Running
+Fisrt of all install apache-pack to the symfony for working on apache
+
+```
+composer require symfony/apache-pack
+```
 
 If the VM is stopped (for example after a reboot) run this inside the root directory of the project:
 
