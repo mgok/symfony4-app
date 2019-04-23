@@ -23,7 +23,7 @@ vagrant plugin install vagrant-berkshelf
 Clone the repository:
 
 ```
-git clone https://github.com/wardviaene/chef-demo.git
+git clone https://github.com/mgok/symfony4-app.git
 cd symfony4-app
 ```
 
